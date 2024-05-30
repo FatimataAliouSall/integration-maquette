@@ -1,0 +1,112 @@
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #2F303A;
+}
+#header {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+
+
+ .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+#landing-page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+#landing-page .feel {
+    color: white;
+}
+
+    
+
+.Join-Now {
+    border: none;
+    background-color: #1762A7;
+    color: white;
+    padding: 20px;
+}
+#feature {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 50px;
+}
+#feature .left .item {
+    color: white;
+    margin-left: 60px;
+}
+#sign-up {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: #2F303A;
+}
+.fun {
+    color: white;
+    align-items: center;
+
+}
+.fun span {
+    color: #BC3AB0;
+}
+.row {
+    
+    display: flex; 
+    flex-direction: column;
+    border: 1px solid #1762A7;
+    
+}
+.row label {
+    display: block; 
+    margin-bottom: 9px; 
+    color: white;
+    
+
+}
+.input {
+    padding: auto;
+    width: 200px;
+    height: 80px;
+    background-color: black;
+}   
+
+
+
