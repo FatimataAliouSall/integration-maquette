@@ -5,8 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignUp</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
+    <header id="header">
+        <div class="header-content">
+            <nav class="nav">
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="assets/css/images/logo (1) 1.png" alt="logo">
+                        <h3>soundwave</h3>
+                    </div>
+                </a>
+                <ul>
+                    <li><a href="feature.html">Discover</a></li>
+                    <li><a href="SignUp.html">Join</a></li>
+                </ul>    
+                
+            </nav>  
+        </div>        
+
+    </header>
    <section id="sign-up">
      <div class="fun">
         <h1>Join the <span>fun.</span></h1>
@@ -16,17 +36,18 @@
     
               <div class="input">
                   <label for="name"> name</label>
-                  <input type="text" id="first-name" name="firstname">
+                  <input type="text" id="name" name="name">
               </div>
           
               <div class="input">
                   <label for="email">email</label>
-                  <input type="text" id="last-name" name="lastname">
+                  <input type="email" id="email" name="email">
               </div>
               
               <div class="input">
                <label for="password"> password</label>
                <input type="number" id="password" name="password">
+               <button>Join Now</button>
            </div>
       </div>
       
@@ -35,6 +56,14 @@
           
 
      </form>
+     <div class="footer">
+        <div class="div-left">
+
+        </div>
+        <div class="div-rigth">
+
+        </div>
+     </div>
     </section> 
 </body>
 </html>
