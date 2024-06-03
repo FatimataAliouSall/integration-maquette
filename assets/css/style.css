@@ -165,6 +165,7 @@ a {
     }
     #feature .left {
        margin: auto;
+       display: flex;
     
     }
     #feature .rigth {
@@ -175,8 +176,7 @@ a {
     #feature .left .item img {
         width: 70px;
         height: 70px;
-        margin-right: 10px;
-    
+        margin-right: 5px;
     }
     #feature .rigth  img {
         width: 250px;
